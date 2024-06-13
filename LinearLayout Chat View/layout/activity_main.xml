@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/childLayout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+           android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#ff00aa"
+                android:src="@drawable/ic_launcher_foreground"/>
+
+
+            <LinearLayout
+                android:id="@+id/subChildLayout1"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/textViewSender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mr. John"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:id="@+id/textViewMsg"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hello Good Morning"
+                    />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/subChildLayout2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="right|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/textViewTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9:49"
+                    android:textColor="@android:color/holo_green_dark"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewMsgCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="2"
+
+                    android:textColor="#ffffff"
+                    android:background="@drawable/circular_shape"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
